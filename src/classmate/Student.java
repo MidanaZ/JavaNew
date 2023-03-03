@@ -42,4 +42,9 @@ public class Student {
         System.out.println(""+age);
         System.out.println(""+year);
     }
+
+    @Override
+    public String toString() {
+        return getName()+" "+getAge()+" "+getYear();
+    }
 }
